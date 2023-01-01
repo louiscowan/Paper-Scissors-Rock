@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 
-import WatchUpload from './WatchUpload';
+import PaperScissors from './PaperScissors';
 import '../App.css';
 
 function App() {
   return (
     <Routes>
-        <Route path='/' element={<WatchUpload />}/>
+        <Route path='/' element={<PaperScissors />}/>
     </Routes>
   );
 }
